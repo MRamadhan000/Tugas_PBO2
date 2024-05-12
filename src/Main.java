@@ -2,6 +2,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         BankAccount.addUserAuto(); // MENAMBAHKAN OBJEK BANKACCOUNT
+        //1. Account Number = 123 & pass = 122
+        //2. Account number = 234 & pass = 233
+        //3. Account Number = 345 & pass = 344
+
         BankAccount user;
         String accountNumber, password, choose;
         Scanner inputObj = new Scanner(System.in);
